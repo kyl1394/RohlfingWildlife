@@ -1,0 +1,34 @@
+.aboutMePage {
+  display: grid;
+  min-height: 100%;
+  padding-top: 30px;
+  grid-template-columns: 6fr 4fr;
+  grid-template-rows: auto 1fr;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.aboutMePhoto {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: inline-block;
+  width: 100%;
+}
+
+.aboutMe {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: inline-block;
+  font-family: "Open sans";
+}

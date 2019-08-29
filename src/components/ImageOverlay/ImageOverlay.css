@@ -1,0 +1,127 @@
+.overlay-content {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.image-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.caption {
+  flex-grow: 0;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+.pricing-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frame-options-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.paypal-button-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.frame-options {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-8-10, .option-16-20 {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.quantity_input {
+  margin-left: 10px;
+  width: 50px;
+}
+
+.frame-options button {
+  background-color: transparent;
+  color: rgb(220, 220, 220);
+}
+
+.option-8-10 {
+  width: 80px;
+  height: 100px;
+}
+
+.option-10-20 {
+  width: 100px;
+  height: 200px;
+}
+
+.option-16-20 {
+  width: 160px;
+  height: 200px;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: auto;
+  display: flex;
+}
+
+.obj {
+    object-fit: scale-down;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.modal-content {
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 720px) {
+  .overlay-content {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+  }
+}
